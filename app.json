@@ -1,0 +1,6 @@
+{
+    "name": "Tech-Blog",
+    "description": "A Tech Blog, Week 14 Homework Project",
+    "repository": "https://github.com/tracye1083/Tech-Blog",
+    "keywords": ["node", "express", "sequelize", "mysql"]
+}
