@@ -7,8 +7,8 @@
   <title>Tech Blog</title>
   <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;700&display=swap">
-  <link rel="stylesheet" href="/public/css/style.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <link rel="stylesheet" href="/public/css/style.css">
   <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
 </head>
 <body>
@@ -16,19 +16,19 @@
         <nav>
             <div>
                 <ul style="list-style: none; display: inline-flex;">
-                    <a href="/" style="text-decoration: none;"><li style="padding-left: 10px; color: white;">Home</li></a>
-                    <a href="/dashboard" style="text-decoration: none;"><li style="padding-left: 10px; color: white;">Dashboard</li></a>
+                    <a href="/" style="text-decoration: none; color: white;"><li style="padding-left: 10px; color: white;"><button class="btn text-white rounded">Home</button></li></a>
+                    <a href="/dashboard" style="text-decoration: none; color: white;"><li style="padding-left: 10px; color: white;"><button class="btn text-white rounded">Dashboard</li></button></li></a>
                     {{#if loggedIn}}
-                    <a style="text-decoration: none;"><li style="padding-left: 10px; color: white;"><button id="logout" class="btn rounded p-.5" style="width: ">Log Out</button></li></a>
+                    <a style="text-decoration: none; color: white;"><li style="padding-left: 10px; color: white;"><button id="logout" class="btn text-white rounded">Log Out</button></li></a>
                     {{else}}
-                    {{!-- <a href="/signup" style="text-decoration: none;"><li style="padding-left: 10px; color: white;">Sign Up</li></a> --}}
-                    <a href="/login" style="text-decoration: none;"><li style="padding-left: 10px; color: white;"><button class="btn rounded p-1" style="width: 80px;">Login</button></li></a>
+                    {{!-- <a href="/signup" style="text-decoration: none; color: white;"><li style="padding-left: 10px; color: white;">Sign Up</li></a> --}}
+                    <a href="/login" style="text-decoration: none; color: white;"><li style="padding-left: 10px; color: white;"><button class="btn text-white rounded p-1">Login</button></li></a>
                     {{/if}}
                 </ul>
             </div>
             <h2 style="color: rgb(72, 8, 175); border: 3px solid black; display: inline-block; padding: 7px; border-radius: 7px; 
             background-color: #e7ddf3f3; box-shadow: 5px 5px rgba(108, 62, 184, 0.699); margin-left: 2.5rem">
-            The Tech Blog</h2>
+            Tech Blog</h2>
         </nav>
     </header>
     
@@ -54,7 +54,7 @@
         <div class="row-is-full content has-text-centered">
             <p>
             <strong>Tech Blog</strong> by <a href="https://github.com/tracye1083" style="text-decoration: none; color: white;">Tracy Angell</a> | Repo:
-            <a href="https://github.com/tracye1083/tech-blog" style="text-decoration: none; color: white;"><i class="fab fa-github"></i></a> |  
+            <a href="https://github.com/tracye1083/tech-blog" style="text-decoration: none; color: white;"><i class="fab fa-github"></i></a>  
             </p>
         </div>
     </footer>
