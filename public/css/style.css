@@ -6,10 +6,6 @@ body {
     padding: 0;
 }
 
-a {
-    color: white;
-}
-
 .btn {
     background-color: rgb(83, 11, 124);
     color: hsl(0, 0%, 100%);
