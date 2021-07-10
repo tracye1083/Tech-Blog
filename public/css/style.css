@@ -1,0 +1,11 @@
+html,
+body {
+    font-family: 'Raleway', sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.btn {
+    background-color: rgb(72, 8, 175);
+}
