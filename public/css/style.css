@@ -1,6 +1,6 @@
 html,
 body {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway', sans-serif !important;
     height: 100%;
     margin: 0;
     padding: 0;
